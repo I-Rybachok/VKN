@@ -5,7 +5,7 @@ def korin():
     n1 = e.get()
     n = float(n1)
     a = math.sqrt(n)
-    e.delete(0)
+    e.delete(0, END)
     e.insert(0,a)
 
 win=Tk()
